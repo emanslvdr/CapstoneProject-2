@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Salvador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="gradient-background">
+        <section class="header fixed-top gradient-background" id="header">
+            <!-- <header class="d-flex justify-content-center py-2 mx-3">
+                <span
+                    class="fs-3 d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none px-5">EJS</span>
+                <ul class="nav nav-pills px-5">
+                    <li class="nav-item"><a href="#" class="nav-link link-light">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light">About</a></li>
+                </ul>
+            </header> -->
+            <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
+                <div class="container px-5">
+
+                    <a class="navbar-brand fs-3" href="#hero">EJS</a>
+
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navbarsExample05">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">More</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                                    <li><a class="dropdown-item" href="#tecnologies-section">Technologies</a></li>
+                                    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="hero p-5" id="hero">
+            <div class="container col-lg px-4 pt-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-lg col-6">
+                        <img src="./img/eman.jpg" class="img-fluid profile-pic" alt="emmanuel-profile" height="200">
+                    </div>
+                    <div class="col-lg mx-3">
+                        <h1 class="display-1 fw-bolder lh-1 mb-3 my-2">I'm Emmanuel.</h1>
+                        <p class="lead display-6">a programmer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="about-me">
+        <div class="about-me">
+            <div class="container p-5">
+                <h2 class="pb-3 border-bottom">About Me</h2>
+                <p> Hi, I'm a college student with a passion for web development and programming. When I'm not diving
+                    into
+                    coding
+                    languages or tinkering with HTML and CSS, you can often find me exploring the intricacies of
+                    building
+                    websites and applications. I find the process fascinating and continuously seek opportunities to
+                    expand
+                    my
+                    knowledge and skillset in this field.</p>
+                <div class="sample-img row">
+                    <img src="./img/sample-1.png" alt="me-creating-my-first-capstone-project"
+                        class="sample-img col-lg-4 img-fluid my-3">
+                    <img src="./img/sample-2.png" alt="me-creating-leeson-project"
+                        class="sample-img col-lg-4 img-fluid my-3">
+                    <img src="./img/sample-3.png" alt="me-creating-my-first-personale-project"
+                        class="sample-img col-lg-4 img-fluid my-3">
+                </div>
+                <p>In addition to my interest in web development, I have a creative side that drives me to explore new
+                    avenues in the digital realm. I enjoy leveraging my programming skills to bring artistic ideas to
+                    life online, creating visually engaging and interactive experiences. Whether it's crafting
+                    user-friendly interfaces or solving complex coding challenges, I'm constantly pushing myself to
+                    improve and create innovative solutions.</p>
+                <p>As a college student, I embrace the diversity of my interests and eagerly look forward to discovering
+                    how I can combine my passion for web development with other disciplines to make a positive impact on
+                    the world around me. I thrive on the challenges and possibilities that arise from building something
+                    from scratch and seeing it thrive in the online space.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container px-5 pb-3" id="hanging-icons">
+            <h2 class="pb-3 border-bottom">Skills</h2>
+            <div class="row g-3 py-3 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-file-code"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-body-emphasis">Web Development</h3>
+                        <p>I'm a skilled web developer who knows HTML, CSS, and JavaScript. I can create functional
+                            websites with great design, and I pay attention to details and solve problems to ensure
+                            users
+                            have a great experience.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                            class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path
+                                d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                            <path fill-rule="evenodd"
+                                d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-body-emphasis">Photo Editing</h3>
+                        <p>Highly proficient in Adobe Photoshop, and I possess advanced skills in image enhancement,
+                            imperfection removal, and creative effects to deliver stunning visual results.</p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-body-emphasis">Organizational Skills</h3>
+                        <p>I have strong organizational skills, effectively managing tasks, resources, and time in
+                            various aspects of my life. Attention to detail and a methodical approach ensure order and
+                            accessibility, reducing stress and enhancing productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologies-section" class="bg-body-tertiary">
+        <div class="container p-5 text-center">
+            <h2 class="text-body-secondary pb-2 border-bottom fw-bold">Technologies</h2>
+            <p class=" text-body-secondary">
+                HTML helps me structure content, CSS makes it look good, and JavaScript adds interactivity.
+                Bootstrap helps me create mobile-friendly designs easily. Together, these tools allow me to build
+                visually appealing and user-friendly websites.
+            </p>
+            <div class="container row mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="technology-icon col-3" height="90"
+                    viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="technology-icon col-3" height="90"
+                    viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="technology-icon col-3" height="90"
+                    viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="technology-icon col-3" height="90"
+                    viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="pb-3">
+        <div class="container px-5">
+            <header>
+                <div class="mx-auto text-center">
+                    <h2 class="p-4 border-bottom text-body-secondary display-5 fw-bold">Services</h2>
+                </div>
+            </header>
+            <div class="row row-cols-1 row-cols-md-3 text-center py-2">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-tertiary">
+                        <div class="card-header py-3 border-tertiary gradient-background">
+                            <h3 class="my-0 fw-semibold text-light">Front-end</h3>
+                        </div>
+                        <div class="card-body text-start">
+                            <p> I specialize in creating visually appealing and user-friendly interfaces for
+                                websites and applications. I ensure your digital presence is engaging for users and
+                                optimized
+                                for different devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-tertiary">
+                        <div class="card-header py-3 border-tertiary gradient-background">
+                            <h3 class="my-0 fw-semibold text-light">Back-end</h3>
+                        </div>
+                        <div class="card-body text-start">
+                            <p> I focus on building the functionality that powers websites and applications. I
+                                ensure your digital solution runs smoothly and securely, handling data processing
+                                and integration.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-tertiary">
+                        <div class="card-header py-3 border-tertiary gradient-background">
+                            <h3 class="my-0 fw-semibold text-light">Full-stack</h3>
+                        </div>
+                        <div class="card-body text-start">
+                            <p> I offer end-to-end development services, From designing interfaces to implementing
+                                server-side functionality, I deliver comprehensive solutions tailored to your needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-body-tertiary">
+        <div class="container px-5 py-3">
+            <h2 class="pb-3 border-bottom text-end">Contact Me</h2>
+
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center">
+                <div class="col d-flex flex-column align-items-end gap-2 text-end pb-3">
+                    <h2 class="fw-bolder display-5">Better Call Eman!</h2>
+                    <a href="#" class="btn btn-secondary btn-lg gradient-background">Resume</a>
+                </div>
+
+                <div class="text-end">
+                    <div class="col d-flex flex-column py-2">
+                        <p class="text-body-secondary">emansalvador376@gmail.com <svg xmlns="http://www.w3.org/2000/svg"
+                                height="30" class="px-2"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg></p>
+                    </div>
+
+                    <div class="col d-flex flex-column py2">
+                        <p class=" text-body-secondary">+639509264337 <svg xmlns="http://www.w3.org/2000/svg"
+                                height="30" class="px-2"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                            </svg></p>
+                    </div>
+
+                    <div class="col d-flex flex-column py-2">
+                        <p class=" text-body-secondary">https://github.com/emanslvdr <svg
+                                xmlns="http://www.w3.org/2000/svg" height="30" class="px-2"
+                                viewBox="0 0 496 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg></p>
+                    </div>
+
+                    <div class="col d-flex flex-column py-2">
+                        <p class="text-body-secondary">facebook.com/user.does.not.exist.0017 <svg
+                                xmlns="http://www.w3.org/2000/svg" height="30" class="px-2"
+                                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                            </svg></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gradient-background">
+        <footer class="container px-5 py-2">
+            <a href="#hero" class="nav-link text-light fs-3 border-bottom">EJS</a>
+            </ul>
+            <p class="text-light mt-2">© 2023. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
